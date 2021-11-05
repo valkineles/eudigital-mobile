@@ -17,7 +17,7 @@ import {
     View,
 } from 'native-base';
 import styles from './style';
-import api from './api';
+import api from './src/services/api';
 import { NativeScrollEvent, NativeSyntheticEvent } from 'react-native';
 
 interface IAdvert {
