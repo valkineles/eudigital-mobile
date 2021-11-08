@@ -8,8 +8,6 @@ import {
   import { StatusBar } from 'expo-status-bar';  
 
   import { Home } from './src/screens/Home';  
-import { View, StyleSheet } from 'react-native';
-import InfinitLoading from './src/components/InfinitLoading';
 
 export default function App() {
     const [fontsLoaded] = useFonts({
@@ -22,18 +20,16 @@ export default function App() {
       }
     
     return (
-        // <View style={styles.container}>
-        //     <InfinitLoading />
-        // </View>
         <>
- <StatusBar
+         <StatusBar
         style="light"
         translucent
         backgroundColor="transparent"
         />        
+         
+       <Home /> 
+       </>
         
-       <Home />
-        </>
     );
 }
 

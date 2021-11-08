@@ -15,6 +15,7 @@ export function Header() {
       <LogoSvg />
 
       <View style={styles.logoutButton}>
+        
         {/* {
           user &&
           <TouchableOpacity onPress={signOut}>
